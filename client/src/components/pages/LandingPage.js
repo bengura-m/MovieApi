@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Typography, Row, Button } from 'antd';
-import { API_URL, API_KEY, IMAGE_BASE_URL, IMAGE_SIZE, POSTER_SIZE } from '../config'
+import { API_URL, API_KEY, IMAGE_BASE_URL, IMAGE_SIZE, POSTER_SIZE } from '../API/API'
 import MainImage from "../LandingPage/MainImage"
 import GridCard from '../Grid/GridCards'
 const { Title } = Typography;

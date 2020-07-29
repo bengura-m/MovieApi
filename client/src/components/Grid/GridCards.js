@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Avatar, Col, Typography, Row } from 'antd';
-import { IMAGE_BASE_URL } from '../config';
+import { IMAGE_BASE_URL } from '../API/API';
 
 function GridCards(props) {
 

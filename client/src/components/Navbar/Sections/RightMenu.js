@@ -2,7 +2,7 @@
 import React from 'react';
 import { Menu } from 'antd';
 import axios from 'axios';
-import { USER_SERVER } from '../../config';
+import { USER_SERVER } from '../../API/API';
 import { withRouter } from 'react-router-dom';
 import { useSelector } from "react-redux";
 // const Upload = require('../../../../assets/images/upload.png');
