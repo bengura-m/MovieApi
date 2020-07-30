@@ -1,6 +1,6 @@
 #  React MovieDB-API 
 
-![Gif](assets/landingpage.gif)
+![Gif](images/landingpage.gif)
 
 ## About The Page ## 
 
@@ -12,15 +12,15 @@ Below are screenshots of my page and code for review:
 
 ### Screenshot of the Movie page ###
 
-![Screenshot of the website](assets/landingpage.PNG)
+![Screenshot of the website](images/landingpage.PNG)
 
 ### Screenshot of the Server.js Code ###
 
-![Screenshot of the HTML Code](assets/server.PNG)
+![Screenshot of the HTML Code](images/server.PNG)
 
 ### Screenshot of the App.js Code ###
 
-![Screenshot of the HTML Code](assets/app.PNG)
+![Screenshot of the HTML Code](images/app.PNG)
 
 ## Built With ##
 
