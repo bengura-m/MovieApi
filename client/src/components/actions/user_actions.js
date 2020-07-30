@@ -5,7 +5,7 @@ import {
     AUTH_USER,
     LOGOUT_USER,
 } from './types';
-import { USER_SERVER } from '../API/API.js';
+import { USER_SERVER } from '../API/API';
 
 export function registerUser(dataToSubmit){
     const request = axios.post(`${USER_SERVER}/register`,dataToSubmit)

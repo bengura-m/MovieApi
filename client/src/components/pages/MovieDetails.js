@@ -9,6 +9,7 @@ import GridCards from '../Grid/GridCards';
 import MainImage from '../LandingPage/MainImage';
 import MovieInfo from '../MovieDetail/MovieDetail';
 import Favorite from '../MovieDetail/MovieDetail'
+import Comments from '../Comments/Comments'
 function MovieDetailPage(props) {
 
     const movieId = props.match.params.movieId
@@ -125,7 +126,7 @@ function MovieDetailPage(props) {
                 </div>
 
                 {/* Comments */}
-                {/* <Comments movieTitle={Movie.original_title} CommentLists={CommentLists} postId={movieId} refreshFunction={updateComment} /> */}
+                <Comments movieTitle={Movie.original_title} CommentLists={CommentLists} postId={movieId} refreshFunction={updateComment} />
 
             </div>
 
