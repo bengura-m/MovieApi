@@ -63,7 +63,7 @@ function LandingPage() {
     }
 
     return (
-        <div style={{ width: '100%', margin: '0' }}>
+        <div style={{ width: '100%', margin: '0',backgroundColor: 'grey' }}>
             {MainMovieImage &&
                 <MainImage
                     image={`${IMAGE_BASE_URL}${IMAGE_SIZE}${MainMovieImage.backdrop_path}`}
@@ -73,9 +73,9 @@ function LandingPage() {
 
             }
 
-            <div style={{ width: '85%', margin: '1rem auto' }}>
+            <div style={{ width: '85%', margin: '1rem auto', fontStyle: "Letterpress" }}>
 
-                <Title level={2} > Movies by latest </Title>
+                <Title level={2} > Latest Movies </Title>
                 <hr />
                 <Row gutter={[16, 16]}>
                     {Movies && Movies.map((movie, index) => (

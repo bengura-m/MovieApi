@@ -4,7 +4,6 @@ const PORT = process.env.PORT || 5000;
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const connectDB = require("./config/db");
-const mongoose = require("mongoose");
 
 
 const app = express();
