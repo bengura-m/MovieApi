@@ -20,12 +20,13 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongod": "^2.0.0",
     "mongodb": "^3.5.9",
-    "mongoose": "^5.3.16",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
     "redux": "^4.0.5"
