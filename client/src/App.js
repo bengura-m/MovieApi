@@ -6,7 +6,7 @@ import LandingPage from "./components/pages/LandingPage"
 import LoginPage from "./components/pages/LoginPage"
 import RegisterPage from "./components/pages/RegisterPage"
 import NavBar from "./components/Navbar/NavBar"
-// import MovieDetail from "./views/MovieDetail/MovieDetail"
+import MovieDetail from "./components/pages/MovieDetails"
 import FavoritePage from "./components/pages/FavoritePage"
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route exact path="/" component={Auth(LandingPage, null)} />
           <Route exact path="/login" component={Auth(LoginPage, false)} />
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
+          <Route exact path="/movie/:movieId" component={Auth(MovieDetail, null)} />
           <Route exact path="/favorite" component={Auth(FavoritePage, null)} />
         </Switch>
       </div>

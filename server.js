@@ -27,6 +27,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use('/api/users', require('./routes/user'));
 app.use('/api/favorite', require('./routes/favorite'));
+app.use('/api/like', require('./routes/like'));
 
 // Send every other request to the React app
   // Set static folder
