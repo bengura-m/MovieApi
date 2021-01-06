@@ -6,7 +6,7 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "antd": "^4.5.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dom": "0.0.3",
     "formik": "^2.1.5",
     "moment": "^2.27.0",
